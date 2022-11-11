@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- normalize file -->
+    <link rel="stylesheet" href="./normalize.css">
+    <!-- main css file -->
+    <link rel="stylesheet" href="./master.css">
+    <!-- fontAwesome Css file -->
+    <link rel="stylesheet" href="./all.min.css">
+    <!-- google fonts link -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<body>
+    <!-- start the header -->
+     <header>
+        <div class="container">
+            <div class="nav-bar">
+            <a href="" class="nav"><i class="fa-solid fa-bars-staggered fa-2x"></i>
+                 <!-- start nav section -->
+             <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="" class="carte-btn">Your Cart</a></li>
+                <li><a href="#products">Our Products</a></li>
+                <li><a href="/logout">Logout</a></li>
+             </ul>
+            <!-- end nav section -->
+            </div>
+            </a>
+            <a href="/"><h1>Comfy <span>House</span></h1></a>
+            <a href="" class="carte-btn carte-btnIcon" data-before="0" ><i class="fa-solid fa-cart-shopping fa-2x"></i></a>
+        </div>
+        <!-- start the cart section -->
+    <div class="cart-container">
+        <div class="cart-content">
+            <a class="exit" href=""><i class=" fa-solid fa-xmark fa-2x"></i></a>
+             
+            <div class="elements">
+                      
+            </div>
+
+            <div class="total">
+                <h2>Your Total is : $<span class="total-price">0</span></h2>
+                <button class="clear-cart">Clear Cart</button>
+            </div>
+        </div>
+    </div>
+    <!-- end the cart section -->
+     </header>
+    <!-- end the header -->
+    
+    
+     <main>
+        <img src="./images/hero-bcg.jpeg" alt="">
+        <div class="content">
+            <h1>Furniture Collection</h1>
+            <a href="#products" class="shop">Shop Now</a>
+        </div>
+     </main>
+    <!-- start products section-->
+    <div class="products" id="products">
+        <div class="container">
+            <h1 id="products">Our Products</h1>
+        <div class="products-box">
+            
+           
+        </div>
+        </div>
+    </div>
+    <!-- end products section -->
+    <!-- js file -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./jsFile.js"></script>
+</body>
+</html>
